@@ -1,0 +1,107 @@
+body,html{
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100vh;
+    font-family:sans-serif;
+}
+.section_top{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    position:relative;
+    background-image: url(8bb5471b-f844-48ef-aff6-b8beb27df918.jpeg);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+
+}
+.content a{
+    background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.content a:hover{
+    background: blue;    
+}
+.content a:hover:after{
+    background: red;  
+}
+
+.label:after{
+    content:'Surprise';
+}
+.label:hover:after{
+    content:'Happy Birthday Buddy !!';
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(8bb5471b-f844-48ef-aff6-b8beb27df918.jpeg);
+    }
+    5%
+    {
+        background-image: url(9fe61034-0930-4a12-948d-1614de5a30eb.jpeg);
+    }
+    10%
+    {
+        background-image: url(17a8e94f-1e0a-41f1-9851-fd4ee7066d0b.jpeg);
+    }
+    15%
+    {
+        background-image: url(21cfcc52-8781-4731-91af-d7fb4a4b3cc1.jpeg);
+    }
+    20%
+    {
+        background-image: url(54ea153c-9bb0-4e59-a2a0-43b359b9ccf6.jpeg);
+    }
+    35%
+    {
+        background-image: url(72df1b86-5783-48c7-95d0-2eac68ae9c3a.jpeg);
+    }
+    40%
+    {
+        background-image: url(7237eefa-680f-4074-a9cd-c1b193624cbb.jpeg);
+    }
+    45%
+    {
+        background-image: url(24837dc9-3f22-437c-8781-6e3dde120646.jpeg);
+    }
+    50%
+    {
+        background-image: url(a6fbf6fa-9d67-4460-b6c3-dc61427e769c.jpeg);
+    }
+    55%
+    {
+        background-image: url(a9fab763-c758-43d6-a252-29b0bee8d2d5.jpeg);
+    }
+    60%
+    {
+        background-image: url(ac7af231-7a50-4299-890c-450bcae73491.jpeg);
+    }
+    65%
+    {
+        background-image: url(bc9cf325-e767-450d-b12b-c410bbed3f7d.jpeg);
+    }
+    70%
+    {
+        background-image: url(e46444c5-752d-4fa1-9198-9c8d6f3de50b.jpeg);
+    }
+    100%
+    {
+        background-image: url(f1eb5554-45cd-42bc-a3e7-5e5fa7b77679.jpeg);
+    }
+}
